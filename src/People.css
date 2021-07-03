@@ -1,0 +1,25 @@
+.people-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.person {
+  border: 2px solid;
+  padding: 1em;
+  background: #222;
+  color: white;
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.4);
+  border: none;
+  border-radius: 4px;
+}
+
+.person label {
+  font-size: 24px;
+  display: block;
+  font-weight: bold;
+}
+
+.person div {
+  margin-bottom: 1rem;
+}
